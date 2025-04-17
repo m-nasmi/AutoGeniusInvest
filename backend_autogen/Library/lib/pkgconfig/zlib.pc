@@ -1,0 +1,13 @@
+prefix=D:/My Projects/autogenius_invest/backend_autogen/Library
+exec_prefix=D:/My Projects/autogenius_invest/backend_autogen/Library
+libdir=D:/My Projects/autogenius_invest/backend_autogen/Library/lib
+sharedlibdir=D:/My Projects/autogenius_invest/backend_autogen/Library/lib
+includedir=D:/My Projects/autogenius_invest/backend_autogen/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
